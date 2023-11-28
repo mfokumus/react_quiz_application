@@ -8,7 +8,7 @@
 
 - 💻  I'm a Junior Full-Stack Developer
 
-- 🌱 I’m currently learning **Java Core**
+- 🌱 I’m currently learning **React**
 
 - 📫 How to reach me **metefurkanokumus@gmail.com**
 
