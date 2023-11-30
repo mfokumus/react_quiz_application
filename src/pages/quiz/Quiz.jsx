@@ -7,10 +7,12 @@ import Modal from '../../components/modal/Modal'
 
 const Quiz = () => {
   const {difficulty, amount} = useParams();
-  const [questionsData, setQuestionsData] = useState([])
+  // apiden gelen sonuçları ekranda tutmak için questionsData state i tanımlıyoruz
+  const [questionsData, setQuestionsData] = useState([])  
   const [score, setScore] = useState(0)
   const [count, setCount] = useState(0)
-  const [modal, setModal] = useState(false)
+  // modal yapısı true olduğunda quiz bitti diğer sayfaya geç olarak tanımlanır
+  const [modal, setModal] = useState(false) 
 
   useEffect(() => {
     const getData = async() => {
